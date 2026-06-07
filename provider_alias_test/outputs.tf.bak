@@ -1,0 +1,7 @@
+output "bucket_name" {
+  value = module.storage.google_storage_bucket.bucket
+}
+
+output "bucket_url" {
+  value = google_storage_bucket.bucket.url
+}
